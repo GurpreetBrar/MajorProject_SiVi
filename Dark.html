@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SiVi</title>
+<link rel = "icon" href = "Picture1.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet1Dark.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+body{background-color: #23272a;color: #fff;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar red card left-align large">
+    <a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="bar-item button padding-large white">Home</a>
+    <a href="#About" class="bar-item button hide-small padding-large hover-white">About</a>
+    <a href="Detail.html" class="bar-item button hide-small padding-large hover-white">Build resume</a>
+    <a href="#" class="bar-item button hide-small padding-large hover-white">Templates</a>
+    <a href="#" class="bar-item button hide-small padding-large hover-white">Tips</a>
+    <a href="index.html" class="bar-item button hide-small padding-large hover-white right">Light Mode</a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+    <a href="#About" class="bar-item button padding-large">About</a>
+    <a href="Detail.html" class="bar-item button padding-large">Build resume</a>
+    <a href="#" class="bar-item button padding-large">Templates</a>
+    <a href="#" class="bar-item button padding-large">Tips</a>
+    <a href="Dark.html" class="bar-item button hide-small padding-large hover-white">Dark Mode</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container red center" style="padding:128px 16px">
+  <h1 class="margin jumbo">SiVi</h1>
+  <p class="xlarge2"><i>"Amazing careers starts with amazing resume"</i></p>
+  
+  <a href="Detail.html"><button class="button black padding-large large margin-top">Get Started</button></a>
+  
+</header>
+
+<!-- First Grid -->
+<div class="row-padding padding-64 container" id = "About">
+  <div class="content">
+    <div class="twothird">
+      <h1>SiVi - Resume/CV maker</h1>
+      <h5 class="padding-32">Website where a person can build his personalized professional resume by choosing different templates and have additional features combined at one place.</h5>
+
+      <p class="text-grey">For any job profile resume act as a credit card to cash upon the opportunity to get shortlisted in 
+        the company for the further selection procedure. It is a formal document that provides an overview of your professional qualifications, including your relevant work experience, skills, education, and notable accomplishments. The goal of your resume is to convince employers you’re worth interviewing.</p>
+    </div>
+
+    <div class="third center">
+      <img src="Picture1.png" alt="fa-bars" width="100%" >
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid 
+<div class="row-padding light-grey padding-64 container">
+  <div class="content">
+    <div class="center">
+      <i class="fa fa-coffee padding-64 text-red margin-right"></i>
+    </div>
+
+    <div class="twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+-->
+<div class="container black center opacity padding-10" >
+    <h1 class="margin xlarge">Efforts should be rewarded well.</h1>
+    <!-- Footer -->
+<footer class="container padding-5 center opacity">  
+  
+  <p>Project by G10</p>
+  <div class="xlarge padding-5">
+    <i class="fa fa-facebook-official hover-opacity"></i>
+    <i class="fa fa-instagram hover-opacity"></i>
+    <i class="fa fa-snapchat hover-opacity"></i>
+    <i class="fa fa-twitter hover-opacity"></i>
+    <i class="fa fa-linkedin hover-opacity"></i>
+ </div>
+</footer>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else { 
+    x.className = x.className.replace(" show", "");
+  }
+}
+</script>
+
+</body>
+</html>
